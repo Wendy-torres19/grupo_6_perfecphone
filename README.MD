@@ -1,48 +1,58 @@
-#### **Grupo 6 PerfecPhone**
-
-#### **Acerca del proyecto**
+## **Grupo 6 PerfecPhone**
+___
+### **Acerca del proyecto**
 Nuestro proyecto se basa en la venta de accesorios de telefonos.
-
-#### **Publico objetivo**
+___
+### **Publico objetivo**
 Desde jovenes hasta adultos, ya que los productos son de interes general.
-
-#### **Caracteristicas Principales**
+___
+### **Caracteristicas Principales**
 - Facil acceso para el registro y las compras.
 - Estrategia de ventas como Ofertas.
 - Diseño moderno.
-
-#### **Integrantes**
+___
+### **Integrantes**
 - **Elias Gonzalez**
-25 años venezolano. Tecnico en computadoras y celulares, amante de la tecnologia y futuro programador.
+
+25 años, venezolano. Tecnico en computadoras y celulares, amante de la tecnologia y futuro programador.
 
 - **Wendy Torres**
-Venezolana 23 años, estudiante en el area de programación y diseño grafico.
 
-- **Rigoli Franco Alejo**
-24 años, estudiante de Derecho. Me interesa muchísimo adaptar los conocimientos que pudiese adquirir en el curso a mi profesión. 
+Venezolana, 23 años. Estudiante en el area de programación y diseño grafico.
 
-#### **Referentes**
-- SOUL
+- **Franco Rigoli**
+
+24 años. Estudiante de Derecho. Me interesa muchísimo adaptar los conocimientos que pudiese adquirir en el curso a mi profesión. 
+___
+### **Referentes**
+- **SOUL**
+
+Diseño creativo.
 <img src="img/soul.jpg">
-Por el diseño creativo que presentan.
 
-- AliExpress
-<img src="img/aliexpress.jpg">
+- **AliExpress**
+
 Facil acceso para el registro e ingreso.
+<img src="img/aliexpress.jpg">
 
-- FRÁVEGA
-<img src="img/fravega.jpg">
+- **FRÁVEGA**
+
 Tiene estrategias de ventas llamativas para el cliente.
+<img src="img/fravega.jpg">
 
-- Apple
+
+- **Apple**
+
+Posee buen orden para organizar los productos.
 <img src="img/apple.jpg">
-Por el orden para organizar los productos.
 
-- ElWeonDeLasPaltas
-<img src="img/paltas.jpg">
+
+- **ElWeonDeLasPaltas**
+
 Ofrece una funcionalidad practica de carrito corredizo.
-
-#### **Wireframes**
+<img src="img/paltas.jpg">
+___
+### **Wireframes**
 Para acceder al Wireframes click [Aqui](https://www.figma.com/file/2orbMlNfO97jfdHHqfMwvy/Perfect-Phone?node-id=0%3A1 "Aqui")
 
-#### **Gracias por leer hasta acá.**
+### **Gracias por leer hasta acá.**
