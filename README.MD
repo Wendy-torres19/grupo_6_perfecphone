@@ -8,7 +8,7 @@ Desde jovenes hasta adultos, ya que los productos son de interes general.
 ___
 ### **Caracteristicas Principales**
 - Facil acceso para el registro y las compras.
-- Estrategia de ventas como Ofertas.
+- Estrategias de ventas visuales en la pagina, como por ejemplo ofertas.
 - Diseño moderno.
 ___
 ### **Integrantes**
