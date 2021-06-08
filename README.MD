@@ -1,4 +1,4 @@
-## **Grupo 6 PerfecPhone**
+## **Grupo 6 Perfect Phone**
 ___
 ### **Acerca del proyecto**
 Nuestro proyecto se basa en la venta de accesorios de telefonos.
