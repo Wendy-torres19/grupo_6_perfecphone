@@ -54,5 +54,12 @@ Ofrece una funcionalidad practica de carrito corredizo.
 ___
 ### **Wireframes**
 Para acceder al Wireframes click [Aqui](https://www.figma.com/file/2orbMlNfO97jfdHHqfMwvy/Perfect-Phone?node-id=0%3A1 "Aqui")
+___
+
+|**Estilo Tipografico**|**Ejemplo**|**Representa**
+| ------------ | ------------ | ------------ |
+|Roboto| [Click Aqui](https://fonts.google.com/specimen/Roboto?category=Sans+Serif&preview.size=64&preview.layout=row#standard-styles "Click Aqui")|Seguridad
+|Sarabun|[Click Aqui](https://fonts.google.com/specimen/Sarabun?category=Sans+Serif&preview.size=64&preview.layout=row#pairings "Click aqui")|Neutralidad
+|Opcional (Varta)|[Click Aqui](https://fonts.google.com/specimen/Varta?category=Sans+Serif#pairings "Click Aqui")|Positivismo
 
 ### **Gracias por leer hasta acá.**
