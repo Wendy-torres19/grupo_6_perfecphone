@@ -57,7 +57,7 @@ Para acceder al Wireframes click [Aqui](https://www.figma.com/file/2orbMlNfO97jf
 ___
 ### **Tipografia**
 
-|**Estilo Tipografico**|**Ejemplo**|**Representa**
+|**Estilo Tipografico (Sans Serif)**|**Ejemplo**|**Representa**
 | ------------ | ------------ | ------------ |
 |Roboto| [Click Aqui](https://fonts.google.com/specimen/Roboto?category=Sans+Serif&preview.size=64&preview.layout=row#standard-styles "Click Aqui")|Seguridad
 |Sarabun|[Click Aqui](https://fonts.google.com/specimen/Sarabun?category=Sans+Serif&preview.size=64&preview.layout=row#pairings "Click aqui")|Neutralidad
