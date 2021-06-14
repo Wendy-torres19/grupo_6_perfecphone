@@ -55,6 +55,7 @@ ___
 ### **Wireframes**
 Para acceder al Wireframes click [Aqui](https://www.figma.com/file/2orbMlNfO97jfdHHqfMwvy/Perfect-Phone?node-id=0%3A1 "Aqui")
 ___
+### **Tipografia**
 
 |**Estilo Tipografico**|**Ejemplo**|**Representa**
 | ------------ | ------------ | ------------ |
