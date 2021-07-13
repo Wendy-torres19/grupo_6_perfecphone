@@ -1,22 +1,14 @@
 {
-  "name": "grupo_6_perfect_phone",
+  "name": "mvc",
   "version": "1.0.0",
-  "description": "___\r ### **Acerca del proyecto**\r Nuestro proyecto se basa en la venta de accesorios de telefonos.\r ___\r ### **Publico objetivo**\r Desde jovenes hasta adultos, ya que los productos son de interes general.\r ___\r ### **Caracteristicas Principales**\r - Facil acceso para el registro y las compras.\r - Estrategias de ventas visuales en la pagina, como por ejemplo ofertas.\r - Diseño moderno.\r ___\r ### **Integrantes**\r - **Elias Gonzalez**",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/wendy-19/grupo_6_Perfect_Phone.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/wendy-19/grupo_6_Perfect_Phone/issues"
-  },
-  "homepage": "https://github.com/wendy-19/grupo_6_Perfect_Phone#readme",
   "dependencies": {
     "express": "^4.17.1"
   }
