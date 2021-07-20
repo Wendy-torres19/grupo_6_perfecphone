@@ -1,183 +1,343 @@
 *{
-   box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-body {
-   margin: 0;
-   padding: 0;
+.body,
+.header,
+.main,
+.footer{
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 
-.mi-header {
-   background-color: black;
-   font-family: 'Roboto', sans-serif;
-   display: flex;
-   flex-direction: column;
-   width: 100%;
-   position: fixed;
-   height: 100px;
+.main{
+ background-color: black;
 }
+
+/* header */
+
 .logo{
-   width: 80px;
-   height: 80px;
-}
-.parte-superior{
-   display: flex;
-   align-items: center;
-   margin-left: 40px;
-   margin-right: 40px;
-   margin-top: 15px;
+ width: 80px;
+ height: 80px;
+ margin-left: 5px;
 }
 
-
-.texto-menu {
-   display: flex;
-   align-content: flex-start;
-   flex-direction: row;
-   list-style: none;
-   gap: 30px;
-   margin-right: 40px;
-   margin-left: 170px;
-   font-size: 16px;
-   padding: 15px;
-   text-align: right;
+/*navegación superior color negro */
+.topnav{
+ background-color: black;
+ overflow: hidden;
+ width: 100%;
+ top: 0;
+ position: fixed;
 }
+
+/* Aplicar estilo a los enlaces dentro de la barra de navegación */
+.topnav a {
+float: left;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+}
+
+/* Cambiar el color de los enlaces al pasar el mouse */
+.topnav a:hover {
+background-color: rgb(187, 188, 255);
+color: black;
+}
+
+/* Agregue un color al enlace activo / actual */
+.topnav a.active {
+color: white;
+}
+
+/* Sección alineada a la derecha dentro de la navegación superior */
+.topnav-right {
+float: right;
+margin-top: 10px;
+padding: 6px;
+}
+
+/* buscador */
+.topnav input[type=text] {
+ width: 250px;
+ float: center;
+ padding: 6px;
+ border: none;
+ margin-top: 10px;
+ margin-left: 100px; 
+ font-size: 17px;
+ border: solid 2px rgb(187, 188, 255);
+}
+
+button{
+ border: solid 2px rgb(187, 188, 255);
+ margin-left: -5px;
+ padding: 6px 10px;
+ margin-top: 10px;
+ background-color: rgb(187, 188, 255);
+ font-size: 17px;
+ cursor: pointer;
+}
+
+/* boton desplegable */
+
+.dropdown {
+ float: left;
+ overflow: hidden;
+}
+
+.dropdown .dropbtn {
+ font-size: 17px;  
+ border: none;
+ outline: none;
+ color: white;
+ padding: 14px 16px;
+ background-color: inherit;
+ font-family: inherit;
+ margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+ background-color: rgb(187, 188, 255);
+ color: black;
+}
+
+.dropdown-content {
+ display: none;
+ position: absolute;
+ background-color: white;
+ min-width: 132px;
+ box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+ z-index: 1;
+}
+
+.dropdown-content a {
+ float: none;
+ color: black;
+ padding: 12px 16px;
+ text-decoration: none;
+ display: block;
+ text-align: left;
+}
+
+.dropdown-content a:hover {
+ background-color: rgb(187, 188, 255);
+}
+
+.dropdown:hover .dropdown-content {
+ display: block;
+}
+
+/* main */
+
+/* imagen corrediza */
+.slider{
+margin: 0;
+overflow: hidden;
+}
+.slider ul{
+ padding: 0;
+ margin: 0;
+ display: flex;
+ width: 200%;
+ animation: cambio 20s infinite;
+}
+.slider li{
+ width: 100%;
+ list-style: none;
  
-.texto-menu a{ 
-   text-decoration: none;
-   color:white;
-}
-.enlace-menu{
-   padding: 4px;
-   border-radius: 5px;
-}
-.enlace-menu:hover{
-background-color: rgb(59, 26, 209);
-transition: .6s;
 }
 
-.barra-busqueda {
-   display: flex;
-   padding: 10 40px 10 25px;
-   position: center;
-   margin: 0px auto;
-   align-content: center;
-   align-items: center;
-   flex-wrap: nowrap;
-   
-}
-.icono{
-   font-family: "Font Awesome 5 Free"; font-weight: 900; 
-   text-align: left;
-   padding: 10px;
-   height: 30px;
-   border-radius: 50px;
-   border: solid 2px rgb(87, 89, 94);
-   }
+/* imagen corrediza */
+@keyframes cambio {
+ 0% {margin-left: 0;}
+ 20% {margin-left: 0;}
 
-   /*********************************  Estructura *********************************************/
+ 25% {margin-left: -100%;}
+ 45% {margin-left: -100%;}
+
+ /*50% {margin-left: -200%;}
+   70% {margin-left: -200%;}
+ 
+   75% {margin-left: -200%;}
+  100% {margin-left: -200%;}*/
+}
+
+.ofertas-home{
+ background-color: black;
+ color: white;
+ font-family: 'Roboto', sans-serif;
+ margin: 0 0%;
+ padding: 40px;
+ text-align: center;
+}
+
+.pantalla-home{
+ background-color: black;
+}
+
+/* columna de los productos */
+.column {
+ text-align: center;
+ background-color: white;
+ float: left;
+ width: 20%;
+ padding: 5px;
+ margin: 30px;
+ margin-right: auto;
+}
+
+/* imagen containers */
+.row::after {
+ content: "";
+ clear: both;
+ display: table;
+}
+.texto-column{
+ color: black;
+ text-align: center;
+}
+
+/* footer */
+
+.footer {
+ /* position: fixed; */
+ font-family: 'Roboto', sans-serif;
+ display: flex;
+ text-align: center;
+ width: 100%;
+ background-color: rgb(187, 188, 255);
+ color: black;
+ gap: 20%;
+}
+
+.footer-redes a{
+ padding: 20px;
+ font-size: 25px;
+ text-decoration: none;
+ border-radius: 50%;
+}
+
+.footer-contacto{
+ border: solid 2px;
+}
+
+.footer-redes{
+ border: solid 2px;
+}
+
+.footer-derechos{
+ padding-top: 20px;
+ border: solid 2px;
+}
+
+/*********************************  Estructura Sergio *********************************************/
 
 * {
-  box-sizing: border-box;
+ box-sizing: border-box;
 }
 
 /* Style the body */
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
+ font-family: Arial, Helvetica, sans-serif;
+ margin: 0;
 }
 
 /* Header/logo Title */
 .header {
-  padding: 80px;
-  text-align: center;
-  background: #1abc9c;
-  color: white;
+ padding: 80px;
+ text-align: center;
+ background: red;
+ color: white;
 }
 
 /* Increase the font size of the heading */
 .header h1 {
-  font-size: 40px;
+ font-size: 40px;
 }
 
 /* Style the top navigation bar */
 .navbar {
-  overflow: hidden;
-  background-color: #333;
+ overflow: hidden;
+ background-color: #333;
 }
 
 /* Style the navigation bar links */
 .navbar a {
-  float: left;
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 20px;
-  text-decoration: none;
+ float: left;
+ display: block;
+ color: white;
+ text-align: center;
+ padding: 14px 20px;
+ text-decoration: none;
 }
 
 /* Right-aligned link */
 .navbar a.right {
-  float: right;
+ float: right;
 }
 
 /* Change color on hover */
 .navbar a:hover {
-  background-color: #ddd;
-  color: black;
+ background-color: #ddd;
+ color: black;
 }
 
 /* Column container */
 .row {  
-  display: -ms-flexbox; /* IE10 */
-  display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
-  flex-wrap: wrap;
+ display: -ms-flexbox; /* IE10 */
+ display: flex;
+ -ms-flex-wrap: wrap; /* IE10 */
+ flex-wrap: wrap;
 }
 
 /* Create two unequal columns that sits next to each other */
 /* Sidebar/left column */
 .side {
-  -ms-flex: 30%; /* IE10 */
-  flex: 30%;
-  background-color: #f1f1f1;
-  padding: 20px;
+ -ms-flex: 30%; /* IE10 */
+ flex: 30%;
+ background-color: #f1f1f1;
+ padding: 20px;
 }
 
 /* Main column */
 .main {   
-  -ms-flex: 70%; /* IE10 */
-  flex: 70%;
-  background-color: white;
-  padding: 20px;
+ -ms-flex: 70%; /* IE10 */
+ flex: 70%;
+ background-color: white;
+ padding: 20px;
 }
 
 /* Fake image, just for this example */
 .fakeimg {
-  background-color: #aaa;
-  width: 100%;
-  padding: 20px;
+ background-color: #aaa;
+ width: 100%;
+ padding: 20px;
 }
 
 /* Footer */
 .footer {
-  padding: 20px;
-  text-align: center;
-  background: #ddd;
+ padding: 20px;
+ text-align: center;
+ background: #ddd;
 }
 
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 700px) {
-  .row {   
-    flex-direction: column;
-  }
+ .row {   
+   flex-direction: column;
+ }
 }
 
 /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
 @media screen and (max-width: 400px) {
-  .navbar a {
-    float: none;
-    width: 100%;
-  }
+ .navbar a {
+   float: none;
+   width: 100%;
+ }
 }
 
 /************************* carrousel **************************/
@@ -189,93 +349,93 @@ img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
+ max-width: 1000px;
+ position: relative;
+ margin: auto;
 }
 
 /* Next & previous buttons */
 .prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -22px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
+ cursor: pointer;
+ position: absolute;
+ top: 50%;
+ width: auto;
+ padding: 16px;
+ margin-top: -22px;
+ color: white;
+ font-weight: bold;
+ font-size: 18px;
+ transition: 0.6s ease;
+ border-radius: 0 3px 3px 0;
+ user-select: none;
 }
 
 /* Position the "next button" to the right */
 .next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
+ right: 0;
+ border-radius: 3px 0 0 3px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+ background-color: rgba(0,0,0,0.8);
 }
 
 /* Caption text */
 .text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
+ color: #f2f2f2;
+ font-size: 15px;
+ padding: 8px 12px;
+ position: absolute;
+ bottom: 8px;
+ width: 100%;
+ text-align: center;
 }
 
 /* Number text (1/3 etc) */
 .numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
+ color: #f2f2f2;
+ font-size: 12px;
+ padding: 8px 12px;
+ position: absolute;
+ top: 0;
 }
 
 /* The dots/bullets/indicators */
 .dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
+ cursor: pointer;
+ height: 15px;
+ width: 15px;
+ margin: 0 2px;
+ background-color: #bbb;
+ border-radius: 50%;
+ display: inline-block;
+ transition: background-color 0.6s ease;
 }
 
 .active, .dot:hover {
-  background-color: #717171;
+ background-color: #717171;
 }
 
 /* Fading animation */
 .fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
+ -webkit-animation-name: fade;
+ -webkit-animation-duration: 1.5s;
+ animation-name: fade;
+ animation-duration: 1.5s;
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+ from {opacity: .4} 
+ to {opacity: 1}
 }
 
 @keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+ from {opacity: .4} 
+ to {opacity: 1}
 }
 
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
+ .prev, .next,.text {font-size: 11px}
 }

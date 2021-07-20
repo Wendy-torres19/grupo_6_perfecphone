@@ -8,32 +8,133 @@
   <link rel="stylesheet" href="/css/home.css" />
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
   rel="stylesheet" />
-  <title>Document</title>
   </head>   
   <body>
 
-  <header class="mi-header">
+  <header>
 
-    <div class="parte-superior">
-        <img src="/images/logo.jpg" class="logo">
+    <div class="topnav">
+      <img src="/images/logo.jpg" class="logo">
+      <input type="text" placeholder="Buscar..">
+      <button type="button"><i class="fa fa-search"></i></button>
+      
+       <div class="topnav-right">
+        <a href="/" class="enlace-menu"><i class="fa fa-fw fa-home"></i>Inicio</a>
+        <div class="dropdown">
+          <button class="dropbtn"><i class="fa fa-caret-down"></i> Productos </button>
+          <div class="dropdown-content">
+            <a href="/productos">productos</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+        </div> 
+      
+        <a href="#"><i class="fa fa-fw fa-envelope"></i>Contactos</a>
+        <a href="#"><i class="fa fa-fw fa-user"></i>Ingresar</a>
+        <a href="#"><i class="fas fa-shopping-cart"></i>Mis compras</a>
+      </div>
+    </div>
 
-        <div class="barra-busqueda">
-          <form action="">
-            <input type="text" class="icono" placeholder="">
-              </form>
-                 </div>
+  </header>
 
-        <ul class="texto-menu">
-            <li><a href="/" class="enlace-menu">Inicio</a></li>
-             <li><a href="/productos" class="enlace-menu">Productos</a></li>
-              <li><a href="" class="enlace-menu">Contactos</a></li>
-                 <li><a href="" class="enlace-menu">Ingresar</li>
-                  <li><a href="" class="enlace-menu">Mis compras</li>
-                    </ul>
+<main>
 
+     <div class="slider">
+     <ul>
+     <li><img src="/images/prueba.jpg" width="100%" height="600px"></li>
+     <li><img src="/images/pruebados.jpg" width="100%" height="600px"></li>
+     </ul>
+     </div>
 
+       <h2 class="ofertas-home"><a>Ofertas imperdibles</a></h2>
+  
+       <section class="pantalla-home">
+   
+    <div class="row">
+    <div class="column">
+    <img src="/images/pruebados.jpg" alt="Snow" style="width:100%">
+    <p class="texto-column">texto</p>
+    <p></p>
+    </div>
+          <div class="column">
+          <img src="/images/prueba.jpg" alt="Forest" style="width:100%">
+          <p class="texto-column">texto</p>
+          <p></p>
+          </div>
+    <div class="column">
+    <img src="/images/pruebados.jpg" alt="Mountains" style="width:100%">
+    <p class="texto-column">texto</p>
+    <p></p>
+    </div>
+           <div class="column">
+           <img src="/images/prueba.jpg" alt="Forest" style="width:100%">
+           <p class="texto-column">texto</p>
+           <p></p>
+         </div>
+      </div>
+      </section>
+   
+    <img src="/images/pruebados.jpg" alt="Snow" style="width:100%" height="500px">
+   
+    <h2 class="ofertas-home"><a>Recomendado para voz</a></h2>
+   
+    <section class="pantalla-home">
+   
+         <div class="row">
+         <div class="column">
+         <img src="/images/pruebados.jpg" alt="Snow" style="width:100%">
+         <p class="texto-column">texto</p>
+         <p></p>
+         </div>
+     <div class="column">
+     <img src="/images/prueba.jpg" alt="Forest" style="width:100%">
+     <p class="texto-column">texto</p>
+     <p></p>
+     </div>
+            <div class="column">
+            <img src="/images/pruebados.jpg" alt="Mountains" style="width:100%">
+            <p class="texto-column">texto</p>
+            <p></p>
+            </div>
+      <div class="column">
+      <img src="/images/prueba.jpg" alt="Forest" style="width:100%">
+      <p class="texto-column">texto</p>
+      <p></p>
+      </div>
+         </div>
+         </section>
+
+</main>
+
+<footer>
+
+<div class="footer">
+
+      <div class="footer-contacto">
+      <P>¿Dudas?</P>
+      <P>¿Preguntas</P>
+      <h4>¡CONTACTANOS!</h4>
+      <h4><i class="far fa-envelope"></i> Correo PerfectPhone@gmail.com</h4>
+      <h4><i class="fab fa-whatsapp"></i> Whatsapp 11-57215382</h4>
+      </div>
+
+            <div class="footer-redes">
+            <h4>SIGUENOS</h4>
+            <P>EN NUESTRAS REDES SOCIALES</P>
+            <p><a href="#"><i class="fab fa-facebook"></i>Facebook</a></p>
+            <p><a href="#"><i class="fab fa-instagram"></i>Instagram</a></p>
+            <p><a href="#"><i class="fab fa-twitter"></i></i>Twitter</a></p>
+            </div>
+
+      <div class="footer-derechos">
+      <img src="/images/logo.jpg" class="logo">
+      <p>Accesorios para dispositivos móviles</p>
+      <h6>Copyrigh Perfect Phone 2021</h6>
+    </div>
+ 
 </div>
-</header>
+
+</footer>
 
 </body>
 </html>
