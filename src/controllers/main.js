@@ -1,8 +1,8 @@
 const path = require("path");
 
 module.exports = {
-    index: (req,res)=> res.sendFile(path.resolve(__dirname,"../views","home.html")),
+    index: (req,res)=> res.render("home"),
 
-    about: (req,res)=> res.sendFile(path.resolve(__dirname,"../views","about.html"))
+    about: (req,res)=> res.render("about")
 }
 
