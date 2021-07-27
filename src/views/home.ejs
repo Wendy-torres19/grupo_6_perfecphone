@@ -1,44 +1,9 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-  <title>prueba</title>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link href = "https://fonts.googleapis.com/css2? family = Roboto & display = swap" rel = "hoja de estilo ">
-  <link rel="stylesheet" href="/css/home.css" />
-  <link rel="stylesheet" href="/css/formularioUsuario.css" />
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-  rel="stylesheet" />
-  </head>   
+  <%- include ("./layouts/head") %>    
   <body>
-
-  <header>
-
-    <div class="topnav">
-      <img src="/images/logo.jpg" class="logo">
-      <input type="text" placeholder="Buscar..">
-      <button type="button"><i class="fa fa-search"></i></button>
-      
-       <div class="topnav-right">
-        <a href="/" class="enlace-menu"><i class="fa fa-fw fa-home"></i>Inicio</a>
-        <div class="dropdown">
-          <button class="dropbtn"><i class="fa fa-caret-down"></i> Productos </button>
-          <div class="dropdown-content">
-            <a href="/productos">productos</a>
-            <a href="#">Link 2</a>
-            <a href="#">Link 3</a>
-          </div>
-        </div> 
-      
-        <a href="#footer"><i class="fa fa-fw fa-envelope"></i>Contactos</a>
-        <a href="/formularioUsuario"><i class="fa fa-fw fa-user"></i>Ingresar</a>
-        <a href="#"><i class="fas fa-shopping-cart"></i>Mis compras</a>
-      </div>
-    </div>
-
-  </header>
-
-<main>
+  <%- include ("./layouts/header") %>
+  <main class="col-12 col-s-12" style="background-color:blue;">
 
      <div class="slider">
      <ul>
@@ -105,37 +70,7 @@
          </div>
          </section>
 
-</main>
-
-<footer>
-
-<div class="footer" id="footer">
-
-      <div class="footer-contacto">
-      <P>¿Dudas?</P>
-      <P>¿Preguntas</P>
-      <h4>¡CONTACTANOS!</h4>
-      <h4><i class="far fa-envelope"></i> Correo PerfectPhone@gmail.com</h4>
-      <h4><i class="fab fa-whatsapp"></i> Whatsapp 11-57215382</h4>
-      </div>
-
-            <div class="footer-redes">
-            <h4>SIGUENOS</h4>
-            <P>EN NUESTRAS REDES SOCIALES</P>
-            <p><a href="#"><i class="fab fa-facebook"></i>Facebook</a></p>
-            <p><a href="#"><i class="fab fa-instagram"></i>Instagram</a></p>
-            <p><a href="#"><i class="fab fa-twitter"></i></i>Twitter</a></p>
-            </div>
-
-      <div class="footer-derechos">
-      <img src="/images/logo.jpg" class="logo">
-      <p>Accesorios para dispositivos móviles</p>
-      <h6>Copyrigh Perfect Phone 2021</h6>
-    </div>
- 
-</div>
-
-</footer>
-
-</body>
+  </main>
+  <%- include ("./layouts/footer") %>
+  </body>
 </html>

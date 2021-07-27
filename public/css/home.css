@@ -1,7 +1,7 @@
 *{box-sizing: border-box;}
   body {margin: 0; padding: 0; border: 0;}
   header {margin: 0; padding: 0; border: 0;}
-  main {margin: 0; padding: 0; border: 0;}
+  main {margin: 0; padding: 0; padding-top: 50px; border: 0;}
   footer {margin: 0; padding: 0; border: 0;}
 
   /* desplazamiento suave */
@@ -10,20 +10,31 @@
   }
 
 /* header */
+
+
+.barrabusqueda{
+  border-radius:10px 0px 0px 10px;
+}
+
+.barrabusqueda-btn{
+  border-radius:0px 10px 10px 0px;
+}
+
 .logo{
  width: 80px;
  height: 80px;
  margin-left: 5px;
+ border-radius: 50px;
 }
 
 /*navegación superior color negro */
 .topnav{
   font-family: 'Roboto', sans-serif;
  background-color: black;
- overflow: hidden;
- width: 100%;
+ overflow: hidden; 
  top: 0;
  position: fixed;
+ z-index: 1;
 }
 
 /* averiguar que es eso tiene efecto en el buscador */
@@ -105,10 +116,10 @@ button{
 
 .dropdown-content {
  display: none;
- position: absolute;
  background-color: white;
- min-width: 130px;
+ min-width: 124px;
  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+ position: fixed;
  z-index: 1;
 }
 
@@ -146,7 +157,7 @@ overflow: hidden;
  margin: 0;
  display: flex;
  width: 200%;
- animation: cambio 20s infinite;
+ animation: cambio 10s infinite;
 }
 .slider li{
  width: 100%;
@@ -157,16 +168,16 @@ overflow: hidden;
 /* imagen corrediza */
 @keyframes cambio {
  0% {margin-left: 0;}
- 20% {margin-left: 0;}
+ 10% {margin-left: 0;}
 
+ 15% {margin-left: -100%;}
  25% {margin-left: -100%;}
- 45% {margin-left: -100%;}
 
- /*50% {margin-left: -200%;}
-   70% {margin-left: -200%;}
+ /*20% {margin-left: -200%;}
+   30% {margin-left: -200%;}
  
-   75% {margin-left: -200%;}
-  100% {margin-left: -200%;}*/
+   35% {margin-left: -200%;}
+  45% {margin-left: -200%;}*/
 }
 
 .titulo-producto{
@@ -174,7 +185,7 @@ overflow: hidden;
  color: white;
  font-family: 'Roboto', sans-serif;
  margin: 0 0%;
- padding: 40px;
+ padding: 70px 0px 50px 0px;
  text-align: center;
 }
 
